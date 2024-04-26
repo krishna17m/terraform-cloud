@@ -27,9 +27,6 @@ terraform {
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
   features {}
-}
-provider "azurerm" {
-  features {}
   skip_provider_registration = "true"
   # Connection to Azure
   subscription_id = var.subscription_id
